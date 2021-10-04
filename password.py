@@ -70,9 +70,9 @@ def passwordGen():
     print()
     age = str(input(Fore.BLUE + "[-] How old are you? :: " + Fore.RED))
     print()
-    school = str(input(Fore.BLUE + "[-] Which school do you go? :: " + Fore.RED>
+    school = str(input(Fore.BLUE + "[-] Which school do you go? :: " + Fore.RED))
     print()
-    favourite = str(input(Fore.BLUE + "[-] What is your favourite subject? :: ">
+    favourite = str(input(Fore.BLUE + "[-] What is your favourite subject? :: "))
     print()
     passlegnth = int(input(Fore.BLUE + "[-] How lenght of password do you need (Ex :: 5, 10, 20): " + Fore.RED))
     all = name.upper() + name.lower() + age + school.lower() + school.upper() + favourite.lower() + favourite.upper() + symbols
