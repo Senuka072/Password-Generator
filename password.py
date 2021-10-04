@@ -43,7 +43,7 @@ print()
 print()
 
 time.sleep(1)
-print(Fore.RED + "     [~]" + Fore.BLUE + "This Tool Can Be Generate A PowerFull Password")
+print(Fore.RED + "     \t[~]" + Fore.BLUE + "This Tool Can Be Generate A PowerFull Password")
 time.sleep(1)
 print(Fore.RED + "\t               [~]" + Fore.BLUE + " Made By Senuka Thisath")
 
@@ -72,7 +72,7 @@ def passwordGen():
     print()
     school = str(input(Fore.BLUE + "[-] Which school do you go? :: " + Fore.RED))
     print()
-    favourite = str(input(Fore.BLUE + "[-] What is your favourite subject? :: "))
+    favourite = str(input(Fore.BLUE + "[-] What is your favourite subject? :: " + Fore.RED))
     print()
     passlegnth = int(input(Fore.BLUE + "[-] How lenght of password do you need (Ex :: 5, 10, 20): " + Fore.RED))
     all = name.upper() + name.lower() + age + school.lower() + school.upper() + favourite.lower() + favourite.upper() + symbols
