@@ -43,7 +43,7 @@ print()
 print()
 
 time.sleep(1)
-print(Fore.RED + "                 [~]" + Fore.BLUE + "This Tool Can Be Generate A PowerFull Password")
+print(Fore.RED + "             [~]" + Fore.BLUE + "This Tool Can Be Generate A PowerFull Password")
 time.sleep(1)
 print(Fore.RED + "\t               [~]" + Fore.BLUE + " Made By Senuka Thisath")
 
