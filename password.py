@@ -83,6 +83,12 @@ def passwordGen():
     time.sleep(1)
     print()
     print(Fore.MAGENTA + "Your Password Is :: " + Fore.RED + password)
+    
+    next = input(Fore.RED + "Do You Need To Generate A Password Again? (Yes/No) :: ")
+    if next == "yes" or "Yes":
+        os.system("python password.py")
+    if next == "no" or "No":
+        exit()
 
 def updatetool():
     print(Fore.MAGENTA + """db    db d8888b. d8888b.  .d8b.  d888888b d888888b d8b   db d888b8 
